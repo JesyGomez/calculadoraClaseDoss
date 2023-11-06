@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #754c4c;
+}
+
+.calculator {
+    text-align: center;
+    background-color: #c0b6b6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.buttons button {
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+#resultado {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+#resultado-value {
+    font-weight: bold;
+    color: #007bff;
+}
