@@ -22,5 +22,33 @@
     </div>
     <script src="JS/codigo.js"></script>
 </body>
+<!-- Ejercicio 1:
+La función `suma` recibe tres parámetros: `a`, `b` y `callback`. La función Suma toma dos números a y b, los suma 
+y luego ejecuta la función de retorno (callback) sin pasarle ningún argumento.
+
+El tercer parámetro, `callback`, es una **función de devolución de llamada** que se ejecuta después de que se 
+realiza la suma. 
+Características:
+● Las funciones callback nunca serán llamadas antes de la terminación de la ejecución actual del bucle de eventos de JavaScript.
+● Las funciones callback añadidas con .then serán llamadas después del éxito o fracaso de la operación asíncrona, como arriba.
+● Pueden ser añadidas múltiples funciones callback llamando a .then varias veces, para ser ejecutadas independientemente en el orden de inserción.
+
+Las funciones de devolución de llamada son útiles en situaciones en las que se necesita realizar una tarea después 
+de que se completa otra tarea. Por ejemplo, si se está realizando una operación de lectura de archivo, se puede 
+usar una función de devolución de llamada para imprimir el contenido del archivo después de que se haya leído .
+
+En cuanto a la obligatoriedad de desarrollar este tipo de funciones, no es obligatorio, pero es una técnica comúnmente utilizada en JavaScript para realizar tareas asíncronas. Las funciones de devolución de llamada se utilizan para manejar eventos, realizar operaciones de entrada/salida y realizar solicitudes de red, entre otras cosas .
+
+Para realizar un llamado a la función de ejemplo, se puede hacer de la siguiente manera:
+// Definir la función de retorno (callback)
+function miCallback() {
+    console.log('La suma se ha completado.');
+}
+
+Llamar a la función 'suma' con los números 2 y 3, y pasando la función de retorno 'miCallback'
+suma(2, 3, miCallback);
+la función suma se llama con los números 2 y 3, y cuando la suma se completa, se ejecuta la función de retorno miCallback, 
+que simplemente imprime un mensaje en la consola.
+-->
 
 </html>
